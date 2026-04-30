@@ -96,7 +96,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Task 1
+        // Task 1.
         String first = scanner.next();
         String second = scanner.next();
         System.out.println(areAnagrams(first, second) ? "YES" : "NO");
